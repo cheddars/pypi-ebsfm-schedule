@@ -1,6 +1,6 @@
 # EBS FM 편성표 크롤러
 
-https://www.ebs.co.kr/schedule?channelCd=RADIO&date=20240624&onor=RADIO
+https://www.ebs.co.kr/schedule?channelCd=RADIO&onor=RADIO
 에서 편성표 정보를 긁어와 DataFrame으로 반환합니다.
 
 
@@ -18,7 +18,7 @@ pip install ebsfm-schedule
 schedule(<채널명>, [기준일])
 ```
 
-- 채널명: 'RADIO' 또는 'IRADIO'
+- 채널명: 'RADIO'(EBS FM) 또는 'IRADIO'(반디 외국어 전문 채널)
 - 기준일: 'YYYYMMDD' 형식의 문자열(생략가능)
 
 
